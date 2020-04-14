@@ -1,0 +1,87 @@
+header {
+  height: 100px;
+  background: aqua;
+  display: flex;
+align-items: center;
+position: fixed;
+  top: 0;
+  width: 100%;
+}
+header:hover{background: #0d91a1;}
+a {
+  height: 30px;
+  width: 100px;
+  background: green;
+  text-align: center;
+  color: black;
+  margin: 5px;
+  padding-top: 05px;
+    }
+.longer{
+  width: 200px;
+}
+a:hover{color: red;}
+a:active{color: orange;}
+
+div{display: flex;
+height: 500px;
+margin: 110px 30px 10px 30px;
+ flex-wrap: nowrap;
+ }
+
+lside{width: 200px;
+    background: orange;}
+main{flex-grow: 3;
+   background: yellow;
+    margin: 0px 5px 0px 5px;
+}
+rside{flex-grow: 1;
+    background: lime;
+}
+div1{display: flex}
+img{width: 120px;height: 120px;
+  margin: 10px 10px 10px 10px;}
+img:hover{width: 140px;height: 140px;
+  margin-top: 0px;
+  margin-left:0px;
+  margin-right:0px;
+  margin-bottom: 0px}
+#kepala{width: 140px;display: block;margin-left:0px}
+div2{}
+form{width: 300px;height: 240px;
+     margin-left:auto;margin-right:auto;
+     font-family: 'Open Sans', sans-serif;
+     border:2px solid grey;}
+#closex{cursor:pointer;display:block;
+  width: 100%; text-align: right;padding-right: 3px;box-sizing: border-box;}
+label, input, button{display:block; font-size: 20px;
+width: 100%}
+label{text-align: center;padding:5px;box-sizing: border-box;}
+input{border-radius:6px; border:2px solid thin #cfcfcf;
+  padding: 3px; box-sizing: border-box;}
+button{background: #60e858; width: 100px;
+  margin-left: auto; margin-right: auto;
+  padding:10px;
+  border-radius:30px;}
+#cb{height: 15px;width: 15px;display: inline;
+position: relative;top: 3px; left: 5px;
+background:red;}
+#cbl{display: inline;font-size: 15px;margin-right: 0px;}
+#cbterms{background: none; font-size: 15px;margin-left: 0px;}
+
+footer{
+  background: grey;
+  height: 100px;
+  display: flex;
+align-items: center;
+}
+divf{color: white;
+  background: black;
+  font-size: 70px;
+  width: 100px;height: 100px;
+  border-radius: 50%;
+ text-align: center;
+  position: fixed;
+  bottom:10px;
+  right: 10px;
+  }
